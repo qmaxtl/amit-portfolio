@@ -67,7 +67,7 @@ export const PORTFOLIO_DATA = {
   // Direct communication channels. Replace placeholder values with verified links.
   contact: {
     email: "contact@amitgupta.dev", // REPLACE_WITH_REAL_DATA
-    github: "https://github.com/amit-gupta", // REPLACE_WITH_REAL_DATA
+    github: "https://github.com/qmaxtl",
     linkedin: "https://linkedin.com/in/amit-kumar-gupta", // REPLACE_WITH_REAL_DATA
     x: "https://x.com/amit_gupta", // REPLACE_WITH_REAL_DATA
     telegram: "https://t.me/amit_gupta", // REPLACE_WITH_REAL_DATA
