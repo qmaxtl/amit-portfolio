@@ -3,9 +3,13 @@
 import React, { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDownRight, Terminal, Sparkles, Layers } from "lucide-react";
-import { PORTFOLIO_DATA } from "@/data/portfolio-content";
-import { ThreeCore } from "@/components/scenes/ThreeCore";
+import dynamic from "next/dynamic";
 import { useSound } from "@/components/sound/SoundProvider";
+
+const ThreeCore = dynamic(
+  () => import("@/components/scenes/ThreeCore").then((mod) => mod.ThreeCore),
+  { ssr: false }
+);
 
 export function Hero() {
   const heroRef = useRef<HTMLDivElement>(null);
